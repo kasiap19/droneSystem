@@ -1,8 +1,7 @@
 # droneSystem
-Drone system - JavaScript, PHP
-
-1. The system shows the picture of a map in fullscreen
-2.The user can create as many drones as he/she wants to
+Drone system - JavaScript, PHP.
+1.The user can create as many drones as he/she wants to.
+2. The system shows the picture of a map in a fullscreen
 3. When the system loads, some accidents are loaded with it. This means that with PHP you create some accidents that are displayed in the page as soon as the user loads it
 4. The user can select a drone (previously created) and tell it to fly to the spot where the accident is displayed
 5. The system creates statistics. The system displays how many times the drone has been used to attend an accident. The system shows how many drones you have in total
