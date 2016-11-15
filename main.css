@@ -1,0 +1,187 @@
+span, p, button, h4{
+    font-family: 'Aldrich', sans-serif;
+}
+.container-fluid {
+    padding: 0px;
+}
+.accident{
+ 	width:20px;
+    height:20px;
+    background-color: darkred;
+    position: absolute;
+    border-radius:50%;
+    opacity: 0.8;
+    font-size:30px;
+}
+body {
+    background: url(background.png);
+ 	height: 100%;
+ 	background-size: cover;
+}
+footer{
+	position: absolute;
+	bottom:0;
+	width: 100%;
+	padding: 0px;
+	height: 20%;
+	background-color: black;
+	opacity: 0.9;
+	margin-left: 15px;
+}
+span{
+	font-size: 17px;
+	color:#50504f;
+	text-align: center;
+	margin-left: 10px;
+	color:#7da461;
+	font-weight:800;
+}
+input.input-box, textarea { 
+	background:transparent; 
+	border: 1px solid #9c9c9c;
+	color: white;
+	padding: 7px;
+	text-align: center;
+	width:200px;
+	margin-top: 10px;
+	border-radius: 30px;
+	margin: auto;
+}
+.createBtn{
+	width:160px;
+	background: #062b3c;
+	background-color: black;
+	border: 1px solid #9c9c9c;
+	width:200px;
+	height:40px;
+	color: #ddd;
+	margin-top:10px;
+	text-align: center;	
+	border-radius: 30px;
+}
+button:hover { 
+	background: transparent;
+    background-color: #7da461;
+    color:black;
+}
+.selector{
+	width:250px;
+	background-color: black;
+	color:white;
+	border-radius: 30px;
+	border: 1px solid #9c9c9c;
+	text-align:center;
+	margin-left: 5px;
+}
+.removeBtn{
+	width:200px;
+	background: transparent;
+	border: 1px solid #9c9c9c;
+	padding: 0px;
+	height: 50px;
+	color: #ddd;
+	margin-top: auto;
+	margin-left:10px;
+	text-align: center;
+	border-radius: 30px;
+}
+.totalDronesTxt{
+	font-size: 15px;
+	color:#ddd;
+	padding: 10px;
+	margin-left:5px;
+}
+.usedDronesTxt{
+	font-size: 15px;
+	color:#ddd;
+	margin-left:5px;
+	margin-top:-0px;
+}
+.fa{
+
+    position: absolute; 
+    font-size:40px;
+    opacity: 0.9;
+    padding: -230px;
+  	color: darkred;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+}
+	
+.droneAtribute{
+	position: absolute;
+}
+.droneFont{
+	color:black;
+}
+.textCreate{
+	font-size:20px;
+	padding:3px;
+}
+.textRemove{
+	font-size:20px;
+	margin-top:10px;
+}
+
+.flexcroll{ width:200px;
+            height:auto;
+            overflow:scroll;
+            background-color: black;
+           }
+.flexcroll{
+    scrollbar-face-color: #367CD2;
+    scrollbar-shadow-color: black;
+    scrollbar-highlight-color: #FFFFFF;
+    scrollbar-3dlight-color: #FFFFFF;
+    scrollbar-darkshadow-color: #FFFFFF;
+    scrollbar-track-color: #FFFFFF;
+    scrollbar-arrow-color: #FFFFFF;
+}
+
+/* Let's get this party started */
+.flexcroll::-webkit-scrollbar {
+    width: 0px;
+}
+ 
+/* Track */
+.flexcroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+.flexcroll::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.titles{
+	letter-spacing: 2px;
+	margin-left:12px;
+}
+.fa{
+	color:black;
+}
+.fa-exclamation-triangle{
+	color:darkred;
+    position: absolute;
+    left:20px;
+    top:214px;
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+#mySelect{
+	color:white;
+	text-align: center;
+	letter-spacing: 2px;
+}
