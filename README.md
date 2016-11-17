@@ -1,3 +1,5 @@
+<img width="1257" alt="screen shot 2016-11-17 at 20 02 26" src="https://cloud.githubusercontent.com/assets/19515308/20403332/d3bd09d4-ad00-11e6-9199-084120b1b2ea.png">
+
 # droneSystem
 Drone system - JavaScript, PHP. <br><br>
 1. The user can create as many drones as he/she wants to.<br>
